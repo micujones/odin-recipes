@@ -1,0 +1,99 @@
+color-scheme {
+    color: #F8B195 #f67280;
+    color: #c06c84 #6c5b7b #355c7d;
+}
+
+body {
+    width: 600px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 0 auto;
+}
+
+/* Main page */
+h1.homepage {
+    color: #f67280;
+    text-align: center;
+}
+
+.card {
+    display: block;
+}
+
+ul.card {
+    padding-inline-start: 0px;
+}
+
+img.card {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1.card {
+    color: whitesmoke;
+    margin: -26px 0 50px 8px;
+    filter: drop-shadow(0 0 0.75rem black);
+}
+
+/* Recipe pages */
+.dish-image {
+    height: auto;
+    width: 100%;
+}
+
+#recipe-header {
+    text-align: bottom left;
+}
+
+#recipe-header .dish-name {
+    color: #f67280;
+    margin: 8px;
+    /* display: inline; */
+} /* eventually have the text over the image */
+
+#section {
+    font-family: Georgia, Times, serif;
+    margin-top: 48px;
+}
+
+#ingredients,
+#steps {
+    padding: 8px;
+    padding-inline-start: 24px;
+    background-color: #f8b19576;
+}
+
+#ingredients li,
+#steps li {
+    margin: 16px 8px;
+}
+
+#ingredients:hover,
+#steps:hover {
+    background-color: #f8b195;
+}
+
+p, li {
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+}
+
+button, button a:visited {
+    background-color: #f67280;
+    color: blanchedalmond;
+
+    padding: 8px 24px;
+    margin-top: 24px;
+    border: 0;
+}
+
+button:hover {
+    background-color: #355c7d;
+    color: blanchedalmond;
+}
